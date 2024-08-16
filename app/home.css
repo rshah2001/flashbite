@@ -1,0 +1,146 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #ff6f61, #ffb347);
+    color: #333;
+}
+
+.header {
+    padding: 20px;
+    background: #4db6ac;
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.menu a {
+    margin-right: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.menu .btn {
+    background-color: #ff4081;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.title {
+    font-size: 48px;
+    color: #ffffff;
+}
+
+.subtitle {
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.btn-primary {
+    background-color: #ff4081;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.features {
+    padding: 40px 20px;
+    background: #ffffff;
+    color: #333;
+}
+
+.feature-cards {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    flex-wrap: wrap; /* Enables wrapping of cards on smaller screens */
+}
+
+.feature-card {
+    background: #4db6ac;
+    color: white;
+    padding: 20px;
+    border-radius: 15px;
+    width: 30%;
+    text-align: center;
+    margin-bottom: 20px; /* Adds space between wrapped items */
+}
+
+.pricing {
+    padding: 40px 20px;
+    background: #f3e5f5;
+    color: #333;
+    text-align: center;
+}
+
+.pricing-cards {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    flex-wrap: wrap; /* Enables wrapping of cards on smaller screens */
+}
+
+.pricing-card {
+    background: #ffb347;
+    color: white;
+    padding: 20px;
+    border-radius: 15px;
+    width: 30%;
+    text-align: center;
+    margin-bottom: 20px; /* Adds space between wrapped items */
+}
+
+.btn-secondary {
+    background-color: #ff6f61;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+    .feature-card,
+    .pricing-card {
+        width: 100%; /* Full width for smaller screens */
+    }
+
+    .menu a {
+        margin-right: 10px; /* Smaller margin on smaller screens */
+    }
+
+    .title {
+        font-size: 32px; /* Smaller title font size on smaller screens */
+    }
+
+    .subtitle {
+        font-size: 14px; /* Smaller subtitle font size on smaller screens */
+    }
+
+    .logo {
+        font-size: 18px; /* Smaller logo font size on smaller screens */
+    }
+}
